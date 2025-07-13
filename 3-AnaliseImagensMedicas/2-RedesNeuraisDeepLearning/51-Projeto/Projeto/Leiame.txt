@@ -1,0 +1,18 @@
+# Para executar a aplicação:
+
+1- Execute o Jupyter Notebook "Cap02-Projeto-Gera-Modelo.ipynb" no Titan (ou em uma máquina que tenha as imagens de treino e teste). Ao final será gerado o modelo no formato TensorFlow.js e salvo no diretório "modelos". Copie esse diretório para sua máquina local. Esse Jupyter contém o mesmo conteúdo estudado no Lab 1, apenas salvando o resultado em formato TensorFlow.js
+
+Obs: O passo 1 precisa ser executado apenas se você quiser. O modelo já está sendo fornecido a você.
+
+2- Abra o terminal ou prompt de comando e navegue até o diretório onde estão os arquivos do Projeto.
+
+3- Execute o comando abaixo para iniciar o servidor web em Python:
+
+python -m http.server 8000
+
+4- Abra o navegador e digite:
+
+http://localhost:8000
+
+5- Teste a aplicação. Colocamos 6 imagens de exemplo no diretório de imagens, mas você pode usar qualquer imagem de Raio-X do tórax.
+
